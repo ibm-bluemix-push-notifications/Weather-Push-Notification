@@ -31,8 +31,8 @@ Complete the steps:
 
 	```
 	{
-	"_id": "_design/moodPick",
-	"_rev": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "_id": "_design/weather",
+    "_rev": "11-4d9b81ad9fa319a4a1d3b213ff233eda",
 	"indexes": {
 	    "fields": {
 	        "analyzer": "keyword",
@@ -59,11 +59,11 @@ The `weatherAlert.js` file need the following parameters to complete the actions
 
 - `appSecret` - Bluemix Push Notification service appSecret.
 
-- `apiKey` - This is the username:password combination Weather Insights Service.
+- `apiKey` - This is the username:password combination Weather Company Data Service.
 
-- `cloudantUserName` - Your Cloudant username. This is for accessing your `mood` database in Cloudant.
+- `cloudantUserName` - Your Cloudant username. This is for accessing your `weather` database in Cloudant.
 
-- `cloudantPassword` - Your Cloudant password. This is for accessing your `mood` database in Cloudant.
+- `cloudantPassword` - Your Cloudant password. This is for accessing your `weather` database in Cloudant.
 
 - `appRegion` - Region where your Bluemix app is hosted. For example,for US Dallas -`.ng.bluemix.net`.
 
